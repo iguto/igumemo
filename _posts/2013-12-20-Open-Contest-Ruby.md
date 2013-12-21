@@ -69,7 +69,7 @@ break: 1
 
 ## Rubyによる解答
 
-{% highlight ruby %}
+```ruby
 require 'date'
 # ---- 事前処理
 year, month = gets.split
@@ -98,7 +98,7 @@ unless last_day.saturday?
   end
   puts "|"
 end
-{% endhighlight %}
+```
 
 こんなかんじになりました。Rubyらしく処理すればもっと違った書き方になったりするでしょうが、今回はC言語での解法をなぞる感じで書いています。  
 比較してみると  
